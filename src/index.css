@@ -62,27 +62,61 @@ p, h1, h2, h3, h4, h5, h6 {
       url('Inter-Bold.woff') format('woff');
 }
 
+:root{
+  --black:#000;
+  --white:#fff;
+  --dark-grey:#303030;   
+ 
+}
+h1{
+  font-size:12.5rem;
+  letter-spacing: 5px;
+}
+h2{
+  font-size: 3.5rem;
+  line-height: 4.25rem;
+}
+h3{
+  font-size:1.5rem;
+  line-height: 1.75rem;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+h4{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+h5{
+  font-size:1.125rem;
+  line-height: 1.75rem;
+
+}
+h6{
+  font-size:calc(15/16 * 1rem);
+  line-height: 1.75rem;
+  letter-spacing: 3px;
+}
+
+p{
+  font-size:1.125rem;
+  line-height: 1.75rem;      
+}
+
 body{
   font-family: 'Inter', sans-serif;
-  display: flex;
-  justify-content: center;
-  overflow:hidden;
   
 }
-.wrapper{
-  max-width: 1110px;
-  width: 100%;
+
+.image-container{
+  
 }
 
-
- img{
-  position: absolute;
-  top:0;
-  left:0;
-  z-index: -1;
+.image-container img{
   width: 100%;
-  min-height: 100vh;
+  height: 50vh;
   object-fit: cover;
   overflow: hidden;
-  
 }

@@ -1,18 +1,12 @@
 import "./App.css";
-
+import { Quote } from "./components/Quote";
+import { Clock } from "./components/Clock";
 function App() {
   return (
     <>
-      <main className="wrapper">
-        <img
-          className="hero-img"
-          src="./assets/desktop/bg-image-daytime.jpg"
-          alt="day image"
-        />
-        <section>
-          <p>Hero lies to quote</p>
-        </section>
-      </main>
+      <div className="image-container">
+        <img src="./assets/desktop/bg-image-daytime.jpg" alt="day image" />
+      </div>
     </>
   );
 }
