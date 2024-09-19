@@ -1,1 +1,33 @@
 
+.greeting-container{
+    display:flex;
+    align-items: center;
+}
+
+.greeting{
+    text-transform: uppercase;
+    font-size:20px;
+    line-height: 28px;
+    letter-spacing: 4px;
+}
+.time-icon{
+    display:inline-block;
+    margin-right:1rem;
+}
+.location{
+    font-size:28px;
+    font-weight: bold;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+}
+
+
+
+@keyframes scrollIn {
+    0%{
+        transform:translateY(100%);
+    }
+    100%{
+        transform:translateY(0);
+    }
+}
