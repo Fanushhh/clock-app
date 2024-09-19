@@ -24,7 +24,7 @@ export default function App() {
     // Fetches the date and time along with other geolocation details from the API
     async function getDate() {
       try {
-        const timeData = await fetch("http://worldtimeapi.org/api/ip");
+        const timeData = await fetch("https://worldtimeapi.org/api/ip");
         const timePayload = await timeData.json();
         setTime(timePayload);
       } catch (error) {
