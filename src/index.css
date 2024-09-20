@@ -252,6 +252,9 @@ button img:hover{
   opacity: .2;
   display:none;
 }
+.vertical-line.black-line{
+    opacity: .5;
+}
 .detail > div{
   display: flex;
   justify-content: space-between;
@@ -265,7 +268,6 @@ button img:hover{
   font-size:10px;
   letter-spacing: 2px;
   font-weight: 400;
-  color:var(--dark-grey);
   line-height: 28px;
   margin-bottom:1rem;
 }
@@ -370,6 +372,7 @@ button img:hover{
   .vertical-line{
     display:block;
   }
+  
   button{
     padding:8px 8px 8px 21px;
     font-size:15px;

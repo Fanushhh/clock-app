@@ -34,7 +34,7 @@ export default function App() {
     getDate();
     const intervalID = setInterval(() => {
       getDate();
-    }, 30000);
+    }, 10000);
     return () => clearInterval(intervalID);
   }, []);
 
@@ -71,7 +71,7 @@ export default function App() {
                 <h2>{time?.day_of_year}</h2>
               </div>
             </div>
-            <div className="vertical-line"></div>
+            <div className={`vertical-line ${!isItLate ? 'black-line' : ''}`}></div>
             <div className="detail">
               <div>
                 <h4>Day of the Week</h4>
