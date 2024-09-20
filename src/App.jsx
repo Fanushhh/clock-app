@@ -5,7 +5,7 @@ import { Clock } from "./components/Clock";
 import { useStore } from "./useStore";
 
 const lightMode = {
-  background: "linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%)",
+  background: "linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, .75) 100%)",
   color: "black",
 };
 const darkMode = {
